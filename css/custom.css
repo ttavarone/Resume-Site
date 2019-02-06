@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-	background-color: rgba(255, 134, 134, 0.46);	
+	background-color: #ff3030;	
 }
 
 main {
@@ -15,14 +15,14 @@ main {
 }
 
 div.biotext {
-  width: 50%;
+  width: 44%;
   float: right;
+  margin: 2%;
 }
 
 img#photoofme {
-  width: 40%;
-  display: inline-block;
-  margin: 10px;
+  width: 44%;
+  margin: 2%;
 }
 
 footer p {
@@ -45,6 +45,10 @@ footer li {
 	nav {
 		display: none;
 	}
+}
+
+main h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 div h1 {
