@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-	background-color: #ccc;	
+	background-color: rgba(255, 134, 134, 0.46);	
 }
 
 main {
@@ -14,8 +14,19 @@ main {
 	border-bottom-left-radius: 10px;
 }
 
-footer {
-	text-align: right;
+div.biotext {
+  width: 50%;
+  float: right;
+}
+
+img#photoofme {
+  width: 40%;
+  display: inline-block;
+  margin: 10px;
+}
+
+footer p {
+	/*text-align: right;*/
     padding-right: 20px;
 }
 
@@ -38,4 +49,11 @@ footer li {
 
 div h1 {
   font-family: 'PT Sans', sans-serif;
+  font-size: 400%;
+  font-kerning: auto;
+}
+a.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-kerning: none;
 }
