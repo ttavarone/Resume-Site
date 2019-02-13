@@ -25,7 +25,7 @@ body {
 }
 
 main {
-	padding: 15px;
+	padding: 1%;
 	margin: 0 0 30px 0;	
 	background-color: white;
 	border-bottom-right-radius: 10px;
@@ -36,6 +36,10 @@ div.biotext {
   width: 44%;
   float: right;
   margin: 2%;
+}
+
+p#projectssummary {
+	margin: 2%;
 }
 
 img#photoofme {
@@ -51,6 +55,17 @@ img#resume {
 	border: 3px solid #05386b;
 	border-radius: 4px;
 	box-shadow: 5px 5px #379683;
+	width: 75%;
+}
+
+img#ttrbox {
+	width: 25%;
+	float: right;
+}
+
+img#lzrmze {
+	width: 25%;
+	float: right;
 }
 
 footer p {
@@ -73,10 +88,30 @@ footer li {
 	nav {
 		display: none;
 	}
+	h1 {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	body {
+		background-color: white;
+	}
+	a.btn-lg {
+		display: none;
+	}
+	img#resume {
+		border: none;
+		width: 100%;
+		margin: auto;
+	}
+
 }
 
 main h2 {
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+  margin-top: 2.5%;
 }
 
 div h1 {
@@ -87,7 +122,20 @@ div h1 {
 }
 
 .btn-secondary {
-	background-color: : #05386b;
+	background-color: #05386b;
+}
+
+tr, td, th{
+	border: 3px solid rgba(0,0,0,.125);
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 15%;
+}
+
+th {
+	font-size: 125%;
+	font-family: 'Lato', sans-serif;
+	text-decoration: underline;
 }
 
 a.navbar-brand {
@@ -96,16 +144,36 @@ a.navbar-brand {
   font-kerning: none;
 }
 
+div.card {
+	margin-top: 3%;
+}
+
+div.card-header {
+	background-color: #379683;
+}
+
 li {
+	width: 75%;
+}
+
+ol {
+	float: left;
+	width: 45%;
+}
+
+a.btn-primary {
+	margin-top: 3%;
+}
+
+a#githublink {
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+footer {
+	margin-left: 118px;
+}
+
+footer a {
 	padding: 1%;
-	width: 75%;
-}
-
-li.academicyear {
-	margin: 5%;
-	width: 75%;
-}
-
-ul.list-group {
-	margin-left: 12% !important;
 }
