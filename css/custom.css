@@ -68,20 +68,30 @@ img#lzrmze {
 	float: right;
 }
 
-footer p {
-	/*text-align: right;*/
-    padding-right: 20px;
+footer {
+	background-color: white;
+	margin: auto;
+	width: 25%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;
 }
 
-footer li, footer ul {
-	padding: 0;
-	margin: 0;
+footer a {
+	padding: 1%;
+	background-color: white;
+	margin: auto;
 }
-footer li {
-	margin: 0px 10px;
-	list-style: none;
-	display: inline;
-	
+
+footer nav {
+	width: 100%;
+	margin: auto;
+	float: left;
+	background-color: white;
+}
+
+footer p {
+	margin: auto;
 }
 
 @media print {
@@ -127,15 +137,18 @@ div h1 {
 
 tr, td, th{
 	border: 3px solid rgba(0,0,0,.125);
-	padding-left: 5%;
-	padding-right: 5%;
-	width: 15%;
+	width: 1%;
+	padding: 1%;
 }
 
 th {
 	font-size: 125%;
 	font-family: 'Lato', sans-serif;
 	text-decoration: underline;
+}
+table {
+	width: 50%;
+	margin: auto;
 }
 
 a.navbar-brand {
@@ -168,12 +181,4 @@ a.btn-primary {
 a#githublink {
 	margin-left: 2%;
 	margin-bottom: 5%;
-}
-
-footer {
-	margin-left: 118px;
-}
-
-footer a {
-	padding: 1%;
 }
